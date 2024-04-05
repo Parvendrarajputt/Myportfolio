@@ -9,7 +9,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/19k_Vkc6bK_N4BW2L8oWQdBJPAYXfX5IE/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/parvendra-rajput-27b9701bb/",
-  twitter: "https://twitter.com/ShivanshNema10",
+  twitter: "https://twitter.com/Wesle_y__",
 };
 
 export const skills = [
