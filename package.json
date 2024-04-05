@@ -1,5 +1,6 @@
 {
-  "name": "shivansh-nema-portfolio",
+  "name": "Parvendra-Rajput-portfolio",
+  "homepage": "https:Parvendrarajputt//.github.io/Myportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,12 +26,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
