@@ -1,5 +1,6 @@
 {
   "name": "Parvendra-Rajput-portfolio",
+  "homepage": "https:Parvendrarajputt//.github.io/Myportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,6 +27,7 @@
   },
   "scripts": {
     "deploy": "gh-pages -d build",
+    "build": "cross-env NODE_ENV=production react-scripts build",
     "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
